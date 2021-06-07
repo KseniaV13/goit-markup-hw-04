@@ -12,8 +12,6 @@ h4 {
   margin: 0;
 }
 
-
-
 :root {
   --pretty-color: #2196f3;
   --while-color: #ffffff;
@@ -28,13 +26,11 @@ h4 {
 }
 .header-mail,
 .header-tel {
-  width: 16;
   align-items: center;
 }
 .header-mail,
 .header-tel {
   cursor: pointer;
-  var(--our-team-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,6 +42,7 @@ h4 {
 .header-icons:hover {
   color: #2196f3;
 }
+
 .header-mail:hover a,
 .header-mail:hover .header-icons-mail,
 .header-tel:hover a,
@@ -256,9 +253,7 @@ a.contacts {
   line-height: 42px;
   color: var(--black-color);
   text-align: center;
-  margin-top: 94px;
-
-  margin: 0;
+  margin-bottom: 50px;
 }
 .work-list {
   display: flex;
@@ -267,7 +262,7 @@ a.contacts {
 .work-image {
   flex-basis: calc((100% - 60px) / 3);
   margin-right: 30px;
-  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .work-image:last-child {
   margin-right: 0;
@@ -278,12 +273,11 @@ a.contacts {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0;
-  margin-top: 16px;
+  margin-bottom: 16px;
 }
 .social-link {
   width: 44px;
   height: 44px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -313,7 +307,7 @@ a.contacts {
 .our-team-o {
   flex-basis: calc((100% - 90px) / 4);
   margin-right: 30px;
-
+  background: var(--while-color);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -336,13 +330,14 @@ a.contacts {
   font-size: 16px;
   line-height: 19px;
   color: var(--black-color);
+  margin-bottom: 10px;
 }
 
 .profession {
   font-size: 16px;
   line-height: 19px;
   color: var(--grey-color);
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*Кнопки*/
@@ -474,19 +469,16 @@ img {
 .footer-icon {
   justify-content: space-between;
   margin-left: 70px;
-  margin-top: 12px;
   width: 206px;
-  height: 80px;
 }
 .footer-head {
-  position: absolute;
+  margin-bottom: 20px;
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--while-color);
 }
 .style {
-  margin-top: 20px;
   fill: var(--while-color);
   background: var(--icon-footer-color);
   border-radius: 50%;
